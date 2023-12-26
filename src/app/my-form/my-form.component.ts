@@ -7,8 +7,8 @@ CobrowseIO.license = 'h5U9O61S0DG05Q';
 CobrowseIO.start();
 @Component({
   selector: 'app-my-component',
-  templateUrl: './my-component.component.html',
-  styleUrls: ['./my-component.component.css'],
+  templateUrl: './my-form.component.html',
+  styleUrls: ['./my-form.component.css'],
 })
 export class MyComponentComponent implements OnInit {
 
