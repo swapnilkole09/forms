@@ -115,8 +115,8 @@
     font-size: 16px;
     color: white;
     font-weight: 600;
-    /* align-items: center; */
   }
+  
   
   .cobrowse-code-popup {
     background-color: #bdbdbd80;
@@ -196,7 +196,7 @@
     text-align: center;
     color: black;
   }
-
+  
   @media screen and (max-width: 600px) {
     .main-container {
       justify-content: flex-start;
@@ -229,9 +229,9 @@
       display: block; 
     }
   
-    .showpopup {
-      top: 20%; 
-      margin-left: 20%; 
-    }
+    
   }
+  
+  
+  
   

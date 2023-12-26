@@ -1,27 +1,30 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddressFormComponent } from './address-form/address-form.component';
-import { EmailFormComponent } from './email-form/email-form.component';
-import { MobileFormComponent } from './mobile-form/mobile-form.component';
+import { MyComponentComponent } from './my-component/my-component.component';
 
 const routes: Routes = [
 
   {
-    path:'update/address',
-    component:AddressFormComponent
+    path: 'update/address',
+    component: MyComponentComponent,
   },
   {
-    path:'update/email',
-    component:EmailFormComponent
+    path: 'update/email',
+
+    component: MyComponentComponent,
   },
   {
-    path:'update/mobile',
-    component:MobileFormComponent
+    path: 'update/mobile',
+    component: MyComponentComponent,
   },
+  // {
+  //   path: 'update/mycomponent',
+  //   component: MyComponentComponent,
+  // },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
