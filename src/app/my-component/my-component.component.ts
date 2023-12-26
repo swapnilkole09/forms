@@ -11,8 +11,7 @@ CobrowseIO.start();
   styleUrls: ['./my-component.component.css'],
 })
 export class MyComponentComponent implements OnInit {
-  labels: string[] = ['Label 3', 'Label 4'];
-  title: string = '';
+
   currentRout!: String;
   currentFormData:any
   currentForm:any = {
@@ -31,7 +30,7 @@ export class MyComponentComponent implements OnInit {
    
     let path= this.currentRout.split("/update/")[1]
    console.log('safdefsetezrg', path)
-   
+
    this.currentFormData = this.currentForm[path]
    console.log('currentform',this.currentFormData)
     
